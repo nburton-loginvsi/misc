@@ -12,7 +12,7 @@
       "name": "18d3bc05-cf12-446b-8aa2-1ecd3064aee9",
       "properties": {
         "roleName": "Hydra - Resource Access Role - NickTest",
-        "description": "A fine-tuned role to allow the SP or managed identity of Hydra to operate the resources of Azure Virtual Desktop.",
+        "description": "NickTest - A fine-tuned role to allow the SP or managed identity of Hydra to operate the resources of Azure Virtual Desktop.",
         "type": "customRole",
         "permissions": [
             {
@@ -132,7 +132,7 @@
       "name": "54cb361e-1b01-49f8-982d-a02b6b1c9ff6",
       "properties": {
         "roleName": "Hydra - Change Permissions Role - NickTest",
-        "description": "This role is used by Hydra to change the permissions on Azure Resources. E.g., to give/remove access to application groups, to assign users to virtual machines (Virtual Machine Role), or to allow Microsoft Power-on-Connect.\n\nWe recommend assigning this role only to the necessary resources (such as application groups or defined resource groups), as it is powerful and can also be used to grant other identities any permission.",
+        "description": "NickTest - This role is used by Hydra to change the permissions on Azure Resources. E.g., to give/remove access to application groups, to assign users to virtual machines (Virtual Machine Role), or to allow Microsoft Power-on-Connect.\n\nWe recommend assigning this role only to the necessary resources (such as application groups or defined resource groups), as it is powerful and can also be used to grant other identities any permission.",
         "type": "customRole",
         "permissions": [
             {
